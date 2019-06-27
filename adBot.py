@@ -5,7 +5,7 @@ Created by Manos Liakos. All rights reserved 2019.
 
 
 
-*** This bot receives as input a list of domains and keywords for each one of them and runs infinitely until the ad budget for the selected keywords has been depleted. ***
+*** This bot receives as input a list of domains that are used in Google Adwords campaign and keywords for each one of them and runs infinitely until the ad budget for the selected keywords has been depleted. ***
 
 It uses selenium webdriver (regular browser) to scrape ad URLs for each keyword-domain combination and saves them in an array.
 Then TOR browser is used to simulate a real visit to the URL, using a different IP address each time. Every time, after executing all visits
