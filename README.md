@@ -1,2 +1,9 @@
 # adBot
 This bot receives as input a list of domains and keywords for each one of them and runs infinitely until the ad budget for the selected keywords has been depleted.
+
+It uses selenium webdriver (regular browser) to scrape ad URLs for each keyword-domain combination and saves them in an array.
+Then TOR browser is used to simulate a real visit to the URL, using a different IP address each time. Every time, after executing all visits
+a new search is performed for each domain stacking the array with URLs and requests are done to every URL in the array including the old ones.
+That happens because they don't expire (meaning they still charge the victim, so damage is done in less time :D). The script runs in a loop and each time 
+a certain domain is not found using the selected keywords, it gets removed from the array. Once the array has been emptied, the script is run 4 additional 
+times to ensure that the ad budget for each domain-keyword combo has been indeed depleted.
