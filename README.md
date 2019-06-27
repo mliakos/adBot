@@ -7,3 +7,5 @@ a new search is performed for each domain stacking the array with URLs and reque
 That happens because they don't expire (meaning they still charge the victim, so damage is done in less time :D). The script runs in a loop and each time 
 a certain domain is not found using the selected keywords, it gets removed from the array. Once the array has been emptied, the script is run 4 additional 
 times to ensure that the ad budget for each domain-keyword combo has been indeed depleted.
+
+# Disclaimer:  This bot was made for educational purposes only. Please test this bot on your own funded account. I am not responsible for any misuse of this script.
