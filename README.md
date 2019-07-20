@@ -22,6 +22,7 @@ times to ensure that the ad budget for each domain-keyword combo has been indeed
 - torbrowser binary
 
 **Environment Setup:**
+
 In order to run the script you need to install some Python and system dependencies, as well as do an essential configuration. For a complete environment setup, please feel free to contact me. I can provive a Linux Virtual Machine with everything pre-installed and ready to use.
 
 
