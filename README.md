@@ -26,4 +26,4 @@ times to ensure that the ad budget for each domain-keyword combo has been indeed
 In order to run the script you need to install some Python and system dependencies, as well as do an essential configuration. For a complete environment setup, please feel free to contact me. I can provive a Linux Virtual Machine with everything pre-installed and ready to use.
 
 
-**_Disclaimer:  This bot was made solely for educational purposes, aiming to expose security flaws on Google's Adwords platform. Please test this bot on your own funded account. I am not responsible for any misuse of this script._**
+**_Disclaimer:  This bot was made solely for educational purposes, aiming to expose security flaws on Google's Adwords platform and demonstrate how a malicious tool could be implemented and used by a competitor to undermine your ad campaigns. Please test this bot on your own funded account. I am not responsible for any misuse of this script._**
